@@ -46,6 +46,6 @@ $ npm install --save firebase-admin
 # Comentarios
 - materiais usados : videos no youtube e documentação
 - dificuldade na sintaxe e correção de bugs.
-- não consegui fazer o deploy(Não consegui subir o banco do firebase)
+- não consegui fazer o deploy e o sistema de testes com mocha(Não consegui subir o banco do firebase, erro nos testes)
 
  
