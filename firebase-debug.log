@@ -1,0 +1,50 @@
+[debug] [2020-12-10T19:08:57.690Z] ----------------------------------------------------------------------
+[debug] [2020-12-10T19:08:57.694Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Gabriel\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-12-10T19:08:57.695Z] CLI Version:   8.18.1
+[debug] [2020-12-10T19:08:57.695Z] Platform:      win32
+[debug] [2020-12-10T19:08:57.695Z] Node Version:  v12.19.0
+[debug] [2020-12-10T19:08:57.701Z] Time:          Thu Dec 10 2020 16:08:57 GMT-0300 (GMT-03:00)
+[debug] [2020-12-10T19:08:57.701Z] ----------------------------------------------------------------------
+[debug] [2020-12-10T19:08:57.701Z] 
+[debug] [2020-12-10T19:08:57.714Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-12-10T19:08:57.715Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\exercicio
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2020-12-10T19:10:28.044Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects  
+ {"projectId":"appointments-tes-nodejs","name":"appointmets"}
+[debug] [2020-12-10T19:10:29.115Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Thu, 10 Dec 2020 19:10:29 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=898","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-12-10T19:10:29.126Z] > refreshing access token with scopes: []
+[debug] [2020-12-10T19:10:29.127Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-12-10T19:10:29.319Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","date":"Thu, 10 Dec 2020 19:10:29 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-12-10T19:10:29.361Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5333250198423575857 [none]
+[debug] [2020-12-10T19:10:30.436Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5333250198423575857 200
+[debug] [2020-12-10T19:10:30.437Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5333250198423575857 {"name":"operations/cp.5333250198423575857","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","ready":true},"done":true,"error":{"code":9,"message":"Callers must accept Terms of Service","details":[{"@type":"type.googleapis.com/google.rpc.PreconditionFailure","violations":[{"type":"TOS","subject":"cloud","description":"Callers must accept Terms of Service"}]}]}}
+[debug] [2020-12-10T19:10:30.634Z] FirebaseError: Callers must accept Terms of Service
+    at OperationPoller.<anonymous> (C:\Users\Gabriel\AppData\Roaming\npm\node_modules\firebase-tools\lib\operation-poller.js:33:23)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\Gabriel\AppData\Roaming\npm\node_modules\firebase-tools\lib\operation-poller.js:5:58)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[error] 
+[error] Error: Failed to create project. See firebase-debug.log for more info.
