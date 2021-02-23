@@ -12,8 +12,7 @@
 
   Depois, quando estiver na pasta do projeto, basta digitar no cmd a seguinte instrução:
 
-   
-    `npm install`
+   `$ npm install`
 
   Automaticamente instalará todas as dependências necessarias:
 
@@ -24,7 +23,7 @@
 Bom, agora na mesma tela do cmd, basta iniciar o server para o projeto ser executado localmente.
 
  
-`node server.js`
+`$ node server.js`
  
 ### Nova rota adicionada
 
