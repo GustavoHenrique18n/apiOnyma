@@ -12,32 +12,29 @@
 
   Depois, quando estiver na pasta do projeto, basta digitar no cmd a seguinte instrução:
 
-    ```
-    npm install
-    
+    ```npm install
     ```
 
   Automaticamente instalará todas as dependências necessarias:
 
-* `node_modules` -  contêm os packages do npm que precisará para o projeto.
+- `node_modules` -  contêm os packages do npm que precisará para o projeto.
 
 ### Executando a Aplicação
 
 Bom, agora na mesma tela do cmd, basta iniciar o server para o projeto ser executado localmente.
 
-```
-node server.js
-
-```
-###Nova rota adicionada
+ 
+`node server.js`
+ 
+### Nova rota adicionada
 
 Para executar  TODA aplicação é necessario passar por essa rota para gerar o TOKEN
 
-*`p://localhost:8081/login` 
+-`p://localhost:8081/login` 
 
-###passe o valor obtido no cabeçalho(x-acess-token)
+### passe o valor obtido no cabeçalho(x-acess-token)
 
-  *caso contrário retornará ERRO.
+  -caso contrário retornará ERRO.
   
 # Firebase sdk npm
 
