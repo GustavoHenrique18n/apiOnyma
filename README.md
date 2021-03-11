@@ -1,3 +1,11 @@
+
+<div align='center'>
+ 
+ ![image](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)|
+ ![image](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+ 
+ </div>
+
 # 🛠 Recursos usados 
  - Node.Js - [DOWNLOAD AQUI](https://nodejs.org/en/)
  - Express.Js ~ v.4.0;
