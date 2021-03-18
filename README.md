@@ -44,7 +44,7 @@ Para executar  TODA aplicação é necessario passar por essa rota para gerar o 
 
   - caso contrário retornará ERRO.
   
-# Firebase sdk npm
+# Firebase 
 
 Utilize para instalar o sdk do firebase
 
