@@ -7,46 +7,46 @@
  
  </div>
 
-# 🛠 Recursos usados 
- - Node.Js - [DOWNLOAD AQUI](https://nodejs.org/en/)
+# 🛠 Resources 
+ - Node.Js - [DOWNLOAD](https://nodejs.org/en/)
  - Express.Js ~ v.4.0;
- - PostMan (testar a API criada);
- - Firebase - [DOWNLOAD AQUI](https://firebase.google.com/docs/database/)
- - JSON data (para retornar os dados);
+ - PostMan (test API);
+ - Firebase - [DOCUMENTATION](https://firebase.google.com/docs/database/)
+ - JSON data (return data);
  
- ### Instalando as dependências
+ ### Install the dependencies
    ```
    cd "C:\Users\NomeDoComputador\Documents\..."
    ```
 
-  Depois, quando estiver na pasta do projeto, basta digitar no cmd a seguinte instrução:
+  Then , when you are in the project folder , just type it in cmd
 
    `$ npm install`
 
-  Automaticamente instalará todas as dependências necessarias:
+  it will install the necessary
+  
+- `node_modules` -  contain the packages of project
 
-- `node_modules` -  contêm os packages do npm que precisará para o projeto.
+### Running the project
 
-### Executando a Aplicação
-
-Bom, agora na mesma tela do cmd, basta iniciar o server para o projeto ser executado localmente.
+well, start the server.
 
  
 `$ node server.js`
  
-### Nova rota adicionada
+### JWT add in this aplication
 
-Para executar  TODA aplicação é necessario passar por essa rota para gerar o TOKEN
+generate the token to execute application
 
 - `p://localhost:8081/login` 
 
-### passe o valor obtido no cabeçalho(x-acess-token)
+### pass the value ontained (x-acess-token)
 
-  - caso contrário retornará ERRO.
+  - else return one error
   
 # Firebase 
 
-Utilize para instalar o sdk do firebase
+intall the sdk firebase for some  develop tools 
 
 ```
 $ npm install --save firebase-admin
